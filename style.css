@@ -1,5 +1,43 @@
 element.style {
 }
+.section-editor__body {
+    overflow: hidden!important;
+    background-color: #e5e5e5;
+    overscroll-behavior-x: none;
+}
+body {
+    font: 400 15px/16px "Inter",sans-serif;
+    overflow-y: scroll;
+    color: #333;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+body, html {
+    height: 100%;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+
+/* element.style {
+}
 .text_88f46575-e1d3-4ceb-8b73-73f35276a650 [data-wysiwyg="true"] {
     display: table-cell;
     vertical-align: middle;
@@ -64,3 +102,8 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.responsive {
+ width: 100%;
+ height: auto;
+} */
